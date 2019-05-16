@@ -1,0 +1,120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 28640016,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open the browser and load the URL",
+            "match": {
+              "location": "EggtimerStepDefinition.user_open_the_browser_and_load_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70279977,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "home page should be appear",
+            "match": {
+              "location": "EggtimerStepDefinition.home_page_should_be_appear()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10048347599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "test login functionality with valid credentials",
+        "description": "",
+        "id": "test-eggtimer-functionality;test-login-functionality-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 199826445,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 217756661,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter time text \"25seconds\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"25seconds\"",
+                  "offset": 16
+                }
+              ],
+              "location": "EggtimerStepDefinition.enter_time_text(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3635234544,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on go button",
+            "match": {
+              "location": "EggtimerStepDefinition.click_on_go_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23579348472,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "timer should start and shows remaining time",
+            "match": {
+              "location": "EggtimerStepDefinition.timer_should_start_and_shows_remaining_time()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "test eggtimer functionality",
+    "description": "",
+    "id": "test-eggtimer-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Eggtimer.feature",
+    "tags": []
+  }
+]
